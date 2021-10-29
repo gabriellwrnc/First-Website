@@ -1,0 +1,134 @@
+body{
+    background-image: url(img/bgstat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    font-family: "Book Antiqua";
+}
+
+.logo{
+    width: 70px;
+    position: absolute;
+    left: 60px;
+    top: 30px;
+}
+
+.text{
+    width: fit-content;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    letter-spacing: 10px;
+    font-size:x-large;
+    
+}
+
+.text h1{
+    color: rgb(181, 31, 31);
+}
+
+.container{
+    margin: auto;
+    margin-top: 30px;
+    top: 100px;
+    width: 1000px;
+    height: 650px;
+    background: rgb(10, 14, 41);
+}
+
+.rank{
+    width: fit-content;
+    background: rgb(53, 53, 53);
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: 40%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.stats{
+    width: 835px;
+    background: rgb(53, 53, 53);
+    position: relative;
+    left: 80px;
+    top: 50px;
+    padding: 0;
+}
+
+.stats ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+
+.stats .ul2 .l1{
+    margin: 0 36px;
+}
+
+.stats .ul2 .l2{
+    margin: 0 48px;
+}
+
+.stats .ul2 .l3{
+    margin: 0 33px;
+}
+
+.stats .ul2 .l4{
+    margin: 0 35px;
+}
+
+.stats .ul2 .l5{
+    margin: 0 38px;
+}
+
+.stats .ul2 .l6{
+    margin: 0 49px;
+}
+
+.stats .ul2 .l7{
+    margin: 0 31px;
+}
+
+.rank .rank1{
+    width: 80px;
+}
+
+.agent{
+    width: 317.5px;
+    background: rgb(53, 53, 53);
+    position: relative;
+    left: 100px;
+    top: 100px;
+    text-align: center;
+}
+
+.agent a{
+    text-decoration: none;
+    color: darkmagenta;
+    position: relative;
+}
+
+
+.agent  a:hover{
+    color: white ;
+}
+
+.weapon{
+    width: 317.5px;
+    background: rgb(53, 53, 53);
+    position: relative;
+    left: 570.5px;
+    top: -60px;
+    text-align: center;
+}
+
+.weapon a{
+    text-decoration: none;
+    color: darkslateblue;
+    position: relative;
+}
+
+.weapon  a:hover{
+    color: white ;
+}
